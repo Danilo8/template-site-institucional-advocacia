@@ -1,5 +1,5 @@
 var div = document.getElementById('frase');
-var textos = ['Uma Frase...', 'Uma mensagem', 'Um slogan...'];
+var textos = ['Aqui será escrito alguma frase', 'Ou então um mensagem para seus clientes', 'Ou até mesmo um slogan'];
 
 function escrever(str, done) {
     var char = str.split('').reverse();

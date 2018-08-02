@@ -32,7 +32,7 @@
     <style>
         .cover-container{background:url('{{asset('img/bg/home-bg-3.jpg')}}')no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
     </style>
-    <body onload="typeWrite()" id="home" data-spy="scroll" data-target="#menu" data-offset="0" style="font-family: 'Open Sans', sans-serif;">
+    <body id="home" data-spy="scroll" data-target="#menu" data-offset="0" style="font-family: 'Open Sans', sans-serif;">
         <div class="cover-container d-flex w-100 h-100 flex-column pt-5">
             <nav id="header" class="navbar navbar-expand-lg navbar-dark  fixed-top">
                 <a class="navbar-brand masthead-brand scroll" href="#home">
