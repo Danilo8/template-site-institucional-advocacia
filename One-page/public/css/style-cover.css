@@ -70,6 +70,25 @@ body {
   border-bottom-color: #fff;
 }
 
+#button{
+    border: 2px solid;
+    border-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 8px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+    color: white;
+    background-color: transparent;
+}
+#button:hover, #down:hover{
+  background-color: rgba(255, 255, 255, 0.048);
+  color: rgb(46, 139, 214);
+  border-color: rgb(46, 139, 214);
+}
+
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -78,6 +97,14 @@ body {
   .nav-masthead {
     float: right;
     margin-left: 60%;
+  }
+  .principal{
+    float: none;
+    margin-left: 0%;
+    text-align: left;
+  }
+  #button{
+    margin-left: 25%;
   }
 }
 
@@ -98,4 +125,21 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+#frase::after {
+  content: '|';
+  opacity: 1;
+  margin-left: 5px;
+  display: inline-block;
+  animation: blink .7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
